@@ -32,15 +32,16 @@ export default NextAuth({
   // Configure one or more authentication providers
   providers: [
     SpotifyProvider({
-      // clientId: process.env.NEXT_PUBLIC_CLIENT_ID,
-      // clientSecret: process.env.NEXT_PUBLIC_CLIENT_SECRET,
-      clientId: '545f17e5de8249298d3ebc1f720dd5f0',
-      clientSecret: '9e36243524f74c2bbbe70f1d97e53ccc',
+      clientId: process.env.NEXT_PUBLIC_CLIENT_ID,
+      clientSecret: process.env.NEXT_PUBLIC_CLIENT_SECRET,
       authorization: LOGIN_URL,
     }),
     // ...add more providers here
   ],
   secret: 'some_super_secret_value',
+  session: {
+    strategy: 'jwt',
+  },
   pages: {
     signIn: '/login'
   },

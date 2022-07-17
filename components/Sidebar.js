@@ -10,6 +10,7 @@ import {
 } from  '@heroicons/react/solid'; 
 import{ signOut, useSession } from "next-auth/react";
 import { useEffect, useState } from 'react';
+import Router from 'next/router';
 import { useRecoilState } from "recoil";
 import { playlistIdState } from "../atoms/playlistAtom";
 import useSpotify from "../hooks/useSpotify";
@@ -20,7 +21,6 @@ function Sidebar() {
     const [playlists, setPlaylists] = useState([]);
     const [playlistId, setPlaylistId] = useRecoilState(playlistIdState);
 
-    console.log("playlistid: ", playlistId);
     useEffect(() => {
         if (spotifyApi.getAccessToken()) {
             spotifyApi.getUserPlaylists().then((data) => {
