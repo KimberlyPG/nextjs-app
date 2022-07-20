@@ -1,12 +1,13 @@
 # Spotify clone project 
 
 ### Visit the demo:
+https://keen-cendol-b72200.netlify.app/
 
-# Page:
+### Page:
 ![image](https://user-images.githubusercontent.com/65067847/179931742-15d460ac-86e7-45c1-b2cd-20ef1c6ce259.png)
 ![image](https://user-images.githubusercontent.com/65067847/179931904-d98e9495-3bf3-4153-9049-e68aaca8b018.png)
 
-# Functionality:
+### Functionality:
 - See your spotify playlists 
 - Premium spotify is required for reproducing music 
 
