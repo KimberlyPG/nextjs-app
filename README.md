@@ -1,3 +1,15 @@
+# Spotify clone project 
+
+### Visit the demo:
+
+# Page:
+![image](https://user-images.githubusercontent.com/65067847/179931742-15d460ac-86e7-45c1-b2cd-20ef1c6ce259.png)
+![image](https://user-images.githubusercontent.com/65067847/179931904-d98e9495-3bf3-4153-9049-e68aaca8b018.png)
+
+# Functionality:
+- See your spotify playlists 
+- Premium spotify is required for reproducing music 
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
